@@ -1,5 +1,7 @@
 .hero__header{
   min-height: 90vh;
+  background-attachment: fixed;
+  background-size: cover;
   &:before{
     position: absolute;
     top: 0;

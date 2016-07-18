@@ -52,3 +52,6 @@ table {
 div, section, nav{
 	position: relative;
 }
+svg[hidden]{
+  display: none;
+}
