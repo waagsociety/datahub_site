@@ -1,0 +1,23 @@
+.main__navigation{
+  position: fixed;
+  z-index: 2;
+  padding: $gutter;
+  font-size: 1.25em;
+}
+.main__navigation__list{
+  justify-content: flex-end;
+}
+.main__navigation__list__item{
+  display: inline;
+  margin: 0 ($gutter / 2);
+  a{
+    padding-bottom: 5px;
+    color: white;
+    position: relative;
+  }
+}
+.main__navigation__list__item:first-child{
+  align-self: flex-start;
+  flex-grow: 1;
+  font-weight: bold;
+}

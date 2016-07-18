@@ -1,0 +1,66 @@
+html{
+  font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	font-smooth: always;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+  color: $grey;
+}
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: .01em;
+	color: #576B7B;
+}
+p,
+blockquote {
+    font-size: 1.1125em;
+    line-height: 1.05;
+            hyphens: none;
+}
+dd,
+dt,
+li {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    opacity: 1;
+		color: $brand-color;
+    transition: opacity 0.3s ease-in-out;
+}
+input, select, button, textarea, .btn{
+	font-size: 1.3125em;
+	line-height: 1.5714285714285714;
+}
+
+strong{
+	font-weight: 500;
+}
+p{
+	line-height: 1.9em;
+  max-width: 35em;
+}
+pre{
+  background: $darkgrey;
+  color: white;
+  padding: 20px;
+}
+code{
+  font-family: monospace;
+}
+strong{
+  font-weight: 700;
+}
