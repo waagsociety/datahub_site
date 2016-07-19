@@ -12,8 +12,11 @@
   margin: 0 ($gutter / 2);
   a{
     padding-bottom: 5px;
-    color: white;
+    color: black;
     position: relative;
+    &.active{
+      color: #9291FB;
+    }
   }
 }
 .main__navigation__list__item:first-child{

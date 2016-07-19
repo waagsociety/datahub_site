@@ -16,11 +16,12 @@ gulp.task('styles', function() {
 
 gulp.task('js', function() {
     gulp.src([
+      'src/js/vendors/*.js',
       'src/js/*.js'
     ])
         // concat pulls all our files together before minifying them
         .pipe( concat('main.min.js') )
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('./assets/js'))
 });
 gulp.task('watch', function () {

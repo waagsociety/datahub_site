@@ -1,5 +1,5 @@
 .hero__header{
-  min-height: 90vh;
+  min-height: 85vh;
   background-attachment: fixed;
   background-size: cover;
   &:before{
@@ -17,7 +17,7 @@
   font-size: 2.625em;
   color: white;
   max-width: 17em;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   left: $gutter * 4;
   line-height: 1.3em;
@@ -34,27 +34,25 @@
     left: 0;
   }
   .st0{
-    fill:#FFF200;
+    fill:#3DE3CF;
   }
-  .st1{
+  .rocket__line{
     fill:none;
-    stroke:#FFFFFF;
+    stroke: rgba(255,255,255,1);
     stroke-width:3;
     stroke-linecap:round;
     stroke-miterlimit:10;
   }
-  .st2{
-    fill:none;
-    stroke:#FFFFFF;
-    stroke-width:3;
-    stroke-miterlimit:10;
-  }
-  .st3{
-    fill-rule:evenodd;
-    clip-rule:evenodd;
-    fill:#948EFC;
-  }
-  .rocket__icon{
-    fill:#FFFFFF;
+  .rocket__line{
+    stroke-width:0;
   }
 }
+//
+// #pruple__graph{
+//   animation: background-anim 7s infinite linear alternate-reverse;
+// }
+//
+// @keyframes background-anim {
+//   from{ fill: #AD6BFF; }
+//   to{ fill: #74BCF7; }
+// }
