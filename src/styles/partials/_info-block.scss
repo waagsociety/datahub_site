@@ -1,0 +1,28 @@
+.main{
+  margin: 90px $gutter $gutter;
+}
+
+.information__block{
+  h2{
+    font-size: 1.625em;
+  }
+  background: #1D1C28;
+  figure{
+    line-height: 0;
+  }
+  img{
+    width: 100%;
+    margin: 0;
+    line-height: 0;
+  }
+}
+
+.about__panel{
+  background: #F5F5F6;
+}
+
+@media (min-width:1024px) {
+  .information__block:nth-of-type(even) figure{
+    order: 1;
+  }
+}

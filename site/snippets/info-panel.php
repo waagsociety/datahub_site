@@ -1,5 +1,5 @@
 <section class="flex flex__center flex__wrap bigger__padding">
-  <div class="flex flex__center full__width text__center">
+  <div class="flex flex__center full__width text__center  flex__wrap">
     <div class="info__field">
       <div class="info__icon">
         <svg width="70" height="70"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#buildings"></use></svg>
@@ -15,5 +15,5 @@
       <p>The data browser is a complete new graphical way of browsing metropolitan data.</p>
     </div>
   </div>
-  <button>More information</button>
+  <a class="btn" href="<?php echo kirby()->urls()->index() ?>/information">More information</a>
 </section>

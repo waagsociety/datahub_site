@@ -17,10 +17,10 @@
   font-size: 2.625em;
   color: white;
   max-width: 17em;
-  top: 40%;
   transform: translateY(-50%);
   left: $gutter * 4;
   line-height: 1.3em;
+  z-index: 3;
 }
 
 .svg__header{
@@ -47,12 +47,21 @@
     stroke-width:0;
   }
 }
-//
-// #pruple__graph{
-//   animation: background-anim 7s infinite linear alternate-reverse;
-// }
-//
-// @keyframes background-anim {
-//   from{ fill: #AD6BFF; }
-//   to{ fill: #74BCF7; }
-// }
+
+
+@media (min-width:320px) {
+  .tagline{
+    font-size: 1.625em;
+    top: 50%;
+    left: $gutter;
+  }
+}
+
+
+@media (min-width:1024px) {
+  .tagline{
+    font-size: 2.625em;
+    left: $gutter * 4;
+    top: 40%;
+  }
+}

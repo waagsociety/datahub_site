@@ -18,7 +18,19 @@
 .newsletter__wrapper{
   max-width: 600px;
 }
-.newsletter__title{
-  font-size: 1.625em;
-  margin-bottom: 2.4em;
+
+
+@media (min-width:320px) {
+  .newsletter__title{
+    font-size: 1.2em;
+    margin-bottom: 1.4em;
+  }
+}
+
+
+@media (min-width:1024px) {
+  .newsletter__title{
+    font-size: 1.625em;
+    margin-bottom: 2.4em;
+  }
 }

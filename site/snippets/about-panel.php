@@ -1,5 +1,5 @@
-<section class="flex flex__center flex__wrap bigger__padding">
-  <div class="flex flex__center full__width text__center">
+<section class="flex flex__center flex__wrap bigger__padding about__panel">
+  <div class="flex flex__center full__width text__center flex__wrap">
     <div class="info__field">
       <div class="info__icon">
         <svg width="70" height="70"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#buildings"></use></svg>
