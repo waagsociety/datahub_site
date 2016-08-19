@@ -1,5 +1,5 @@
 var s = new Snap('.svg__header');
-Snap.load('../../assets/images/animation_2.svg', function (response) {
+Snap.load('./assets/images/animation_2.svg', function (response) {
   var heroAnimation = response;
       s.append(heroAnimation);
 
