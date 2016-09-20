@@ -4,7 +4,7 @@
       <a href="http://www.ams-amsterdam.com/" title="Link to AMS website">AMS</a>
     </li>
     <li class="main__navigation__list__item">
-      <a href="/" title="Link to homepage">datahub</a>
+      <a href="<?php echo $site->url() ?>" title="Link to homepage">datahub</a>
     </li>
     <?php foreach($pages->visible() as $p): ?>
     <li class="main__navigation__list__item">
