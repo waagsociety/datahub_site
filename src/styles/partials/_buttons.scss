@@ -1,6 +1,7 @@
 .btn, button {
-  background-image: linear-gradient(-135deg, #AD6BFF 0%, #74BCF7 100%);
-  border-radius: 40px;
+  // background-image: linear-gradient(-135deg, #AD6BFF 0%, #74BCF7 100%);
+  background: #ED1C24;
+  // border-radius: 40px;
   color: black;
   cursor: pointer;
   font-size: 1em;
@@ -11,8 +12,9 @@
   position: relative;
   transition: all 0.2s;
   color: white;
+  font-weight: 700;
   &:hover{
     transform: translateY(-3px);
-    box-shadow: 0 3px 3px rgba(0,0,0, .2);
+    box-shadow: 0 3px 0px rgba(0,0,0, .2);
   }
 }

@@ -1,7 +1,10 @@
 <nav class="main__navigation full__width flex flex__wrap flex__center <?php if($page->isHomePage()): ?> light <?php endif ?>">
   <ul class="main__navigation__list flex full__width">
+    <li class="main__navigation__list__item logo">
+      <a href="http://www.ams-amsterdam.com/" title="Link to AMS website">AMS</a>
+    </li>
     <li class="main__navigation__list__item">
-      <a href="/">datahub</a>
+      <a href="/" title="Link to homepage">datahub</a>
     </li>
     <?php foreach($pages->visible() as $p): ?>
     <li class="main__navigation__list__item">

@@ -11,7 +11,7 @@
     text-align: center;
     transition: .2s ease-in-out;
     &:focus{
-      border-color: #BFB0F6;
+      border-color: $sec-color;
     }
   }
 }

@@ -10,8 +10,9 @@ html{
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 body{
-	font-family: 'Fira Sans', sans-serif;
-  color: $grey;
+	font-family: 'Helvetica Nue', sans-serif;
+  color: $darkgrey;
+  font-size: 86.5%;
 }
 h1, .alpha,
 h2, .beta,
@@ -21,8 +22,7 @@ h5, .epsilon,
 h6, .zeta {
   margin: 0;
   font-weight: 700;
-  letter-spacing: .01em;
-	color: #576B7B;
+	color: $darkgrey;
 }
 h1, .alpha {
     font-size: 2.625em;

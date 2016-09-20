@@ -6,4 +6,4 @@ Text: An API for the distribution and annotation of open data, for small cities 
 
 ----
 
-Infoimage: ams_image.png
+Infoimage: header.jpg

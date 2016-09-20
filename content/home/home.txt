@@ -14,4 +14,4 @@ Pagetitle: datahub
 
 ----
 
-Heroimage: hero-3.png
+Heroimage: header.jpg
