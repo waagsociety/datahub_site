@@ -68,3 +68,7 @@
   flex-grow: 1;
   justify-content: flex-end;
 }
+
+.content__container{
+  min-height: calc(100vh - 90px);
+}
