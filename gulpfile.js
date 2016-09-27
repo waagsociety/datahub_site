@@ -6,13 +6,24 @@ var gulp = require('gulp'),
 
 gulp.task('styles', function() {
     gulp.src('src/styles/**/*.scss')
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(prefix({
-    			browsers: ['last 2 versions'],
-    			cascade: false
-    		}))
-        .pipe(gulp.dest('./assets/css'));
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(prefix({
+			browsers: ['last 2 versions'],
+			cascade: false
+		}))
+    .pipe(gulp.dest('./assets/css'));
 });
+
+gulp.task('stylenav', function() {
+    gulp.src('src/styles/**/navigation.scss')
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(prefix({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+    .pipe(gulp.dest('./assets/css'));
+});
+
 
 gulp.task('js', function() {
     gulp.src([
@@ -29,5 +40,5 @@ gulp.task('watch', function () {
     gulp.watch('src/js/*.js',['js']);
 });
 
-gulp.task('default', ['styles', 'js']);
+gulp.task('default', ['styles', 'js', 'stylenav']);
 gulp.task('start', ['watch']);
