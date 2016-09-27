@@ -1,0 +1,126 @@
+article section {
+  /*background: green;*/
+  /*border-right: 1px solid #ddd;*/
+  /*min-height: 100%;*/
+}
+
+#dataset {
+  background: white;
+  position: absolute;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 32em;
+  bottom: 0;
+  /*padding-left: 32em;*/
+  border-right: 1px solid #ddd;
+}
+
+#dataset section { 
+  /*padding: 2.5em 40px 5em;*/
+  margin: 0 auto;
+  display: block;
+}
+#dataset .datasetheader{
+  padding: 2.5em 40px 0;
+}
+#dataset .datasetbody{
+  padding: 0 40px 2.5em;
+}
+.datasetinformation{
+  padding: 0 40px 2.5em;
+  /*box-shadow: inset 0 1px 0 0 rgba(192,192,192,0.4)*/
+}
+.datasetfooter{
+  padding: 2.5em 40px 5em;
+  background: #F5F5F6;
+}
+.metadata.related,
+.metadata.fields{
+  width: 100%;
+}
+.metadata.fields{
+  display: flex;
+  flex-wrap: wrap;
+}
+.metadata.fields .tag:hover:before{
+  content: "\f002";
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  width: 2.5rem;
+  background: hsla(252, 50%, 28%, 0.9);
+  vertical-align: middle;
+  text-align: center;
+  line-height: 2.5rem;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.metadata.fields > li{
+  max-width: calc(25% - 40px);
+  margin-right: 40px;
+}
+.metadata.related{
+  display: flex;
+}
+.metadata.related li{
+  margin-bottom: 1em;
+  margin-right: 40px;
+}
+
+
+article .tag {
+  background: hsl(252, 50%, 48%);
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  color: white;
+}
+
+
+#dataset h1 {
+  font-weight: 600;
+  font-size: 200%;
+  line-height: 1.2;
+  margin: 0 0 1em;
+  padding-right: 2.5em;
+}
+
+p {
+  max-width: 56em;
+  margin: 1em 0;
+  font-size: 112.5%;
+  line-height: 1.6;
+}
+
+.button.close {
+  /*background: linear-gradient(135deg, hsl(265, 70%, 66%), hsl(208, 70%, 66%));*/
+  position: fixed;
+  color: black;
+  right: 32rem;
+  width: auto;
+  padding: 1.1em;
+  display: flex;
+  transform-origin: top right;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  transition: transform .15s ease-out;
+}
+.button.close .fa{
+  top: 0.02em;
+  margin-right: 0.1em;
+  position: relative;
+}
+.button.close:hover{
+  cursor: pointer;
+  color: hsl(252, 50%, 48%);
+}
+
+
+
+
+
+

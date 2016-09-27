@@ -7,8 +7,8 @@ email: hello@martinr.nl
 language: en
 role: admin
 history:
-  - >
-    information/datahub-is-a-new-way-of-browing-data-that-you-need-for-your-research
+  - browse
+  - information/datahub-is-a-new-way-of-browing-data-that-you-need-for-your-research
   - home
   - information/extra-info
   - information

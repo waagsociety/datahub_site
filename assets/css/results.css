@@ -1,0 +1,182 @@
+a {
+  text-decoration: none;
+}
+
+.results ul {
+  background: white;
+  color: #000;
+  max-height: calc(100% - 4em);
+  overflow: auto;
+}
+
+#article .secondary .content {
+  bottom: 0;
+}
+
+#article .secondary .content ul {
+  padding-bottom: 2em;
+}
+
+#article .results ul {
+  max-height: 100%;
+}
+
+.pagenumber input {
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  width: 8em;
+  padding: 0;
+  height: 2.75em;
+  position: absolute;
+  left: 50%;
+  margin: 0.5em 0 0 -4em;
+  top: 0;
+  outline: 0;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.results li {
+  margin: 0 1.5rem;
+  padding: 1em 0;
+  border-bottom-width: 1px;
+  border-color: #eee;
+  overflow: hidden;
+}
+
+.loading .menu h1 { color: gray }
+
+.menu h1 {
+  font-size: 150%;
+  padding: 0.625em 0;
+}
+
+.results li h1 {
+  font-size: 125%;
+  line-height: 1.4;
+  padding: 0 0 0.25em;
+}
+
+.results li time {
+  color: gray;
+  display: block;
+}
+
+.primary.button {
+  display: inline-block;
+  padding: 0.75em 1em 0.9375em;
+  color: white;
+  margin: 1em 0 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.results ul li:last-child { border: none }
+
+.pages {
+  background: white;
+  border-top: 1px solid #eee;
+}
+
+.full.pages,
+.full.button {
+  width: 100%;
+  height: 4em;
+  margin: 0;
+}
+
+.panel.hidden { display: none }
+.panel.visible { display: block }
+
+.panel.loading { opacity: 0.75 }
+.panel.loading { transition: opacity 0.4s 0.2s ease }
+.panel.done { transition: opacity 0.2s ease }
+
+
+
+.secondary.panel.expanded {
+  width: auto;
+  left: 31em;
+}
+
+footer.full {
+  position: relative;
+  text-align: center;
+  padding: 1em;
+}
+
+footer.full header {
+  font-size: 112.5%;
+  line-height: 1.5;
+  z-index: -1;
+  width: 10em;
+  margin: 0 auto;
+}
+
+
+
+/*.expanded .close {
+  color: black;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  padding: 0.75em 1em 1em;
+  margin: 1.2em 1em;
+  z-index: 1000;
+  border: 1px solid #eee;
+  cursor: pointer;
+}*/
+
+.expanded .close {
+  /*background: linear-gradient(135deg, hsl(265, 70%, 66%), hsl(208, 70%, 66%));*/
+  position: fixed;
+  color: black;
+  right: 0;
+  z-index: 9999;
+  width: auto;
+  padding: 1.1em;
+  display: flex;
+  transform-origin: top right;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  transition: transform .15s ease-out;
+}
+
+button.previous,
+button.next {
+   width: 25%;
+   height: 100%;
+   top: 0;
+   position: absolute;
+   cursor: pointer;
+   padding: 0.5em;
+   z-index: 100;
+}
+
+button.previous[disabled],
+button.next[disabled] {
+  opacity: 0.5;
+}
+
+button.previous { left: 0 }
+button.next { right: 0 }
+
+.secondary.panel.expanded:before {
+  content: '';
+  background: red;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+

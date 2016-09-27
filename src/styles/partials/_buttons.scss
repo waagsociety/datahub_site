@@ -1,4 +1,4 @@
-.btn, button {
+.btn {
   // background-image: linear-gradient(-135deg, #AD6BFF 0%, #74BCF7 100%);
   background: #ED1C24;
   // border-radius: 40px;
@@ -14,6 +14,7 @@
   color: white;
   font-weight: 700;
   &:hover{
+  cursor: pointer;
     transform: translateY(-3px);
     box-shadow: 0 3px 0px rgba(0,0,0, .2);
   }

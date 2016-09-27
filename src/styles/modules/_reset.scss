@@ -24,7 +24,9 @@ time, mark, audio, video, button, input, textarea, select, main, aside {
 	box-sizing: border-box;
 	position: relative;
 }
-
+body{
+	background: white !important;
+}
 html, body{
 	height: 100%;
 }

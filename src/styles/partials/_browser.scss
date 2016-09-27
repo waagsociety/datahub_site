@@ -1,4 +1,16 @@
-#app{
+#app {
   margin-top: 90px;
   position: absolute;
+}
+
+.button.close {
+  z-index: 999;
+}
+
+.group h1 {
+  color: white;
+}
+
+footer.full header {
+  z-index: 1 !important;
 }
