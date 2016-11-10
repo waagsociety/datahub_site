@@ -5,6 +5,6 @@
     <div class="full__width">
       <input id="mail" class="newsletter__input" />
     </div>
-    <button>Signup for the newsletter</button>
+    <button class="btn">Signup for the newsletter</button>
   </div>
 <section>

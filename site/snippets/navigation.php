@@ -11,6 +11,9 @@
       <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
     </li>
     <?php endforeach ?>
+    <li class="main__navigation__list__item ">
+      <a href="https://amsdatahub.waag.org/browser#type=project" title="Link to AMS website">Projects</a>
+    </li>
   </ul>
 </nav>
 <div class="content__container">
