@@ -22,9 +22,9 @@ As if now there are three pages in the AMS Datahub website:
 -  [Error](#error)
 
 ### Home
-This is the home page when you visit [AMS Datahub](http://amsdatahub.waag.org), intended to reveal information about the datahub application. 
+This is the home page when you visit [AMS Datahub](http://amsdatahub.waag.org), intended to reveal basic information about the datahub application. 
 
-The editor can edit the following content:
+The editor can update the following content:
 - [Title](#title)
 - [Text](#text)
 - [Highlights](#highlights)
@@ -32,14 +32,14 @@ The editor can edit the following content:
 ### Information
 The information page is designed to communicate features of the AMS Datahub platform in more detail than the home page allows. The main content of this page is Feature blocks that use a title, image, and paragrapgh of text to explain a feature of the platform.
 
-The editor can edit the following content:
+The editor can update the following content:
 - [Title](#title)
 - [Features](#features)
 
 ### Error
 The error page is designed to comminicate when some sort of error has been encountered, most commonly an error occurs because a page requested does not exist.
 
-The editor can edit the following content:
+The editor can update the following content:
 - [Title](#title)
 - [Text](#text)
 
@@ -59,7 +59,7 @@ Image
 Text
 
 ## Content Structures
-Content structures are collections of different kinds of content within a page section.
+Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) *and* an corresponding [Image](#image).
 
 ### Highlights
 Highlights
