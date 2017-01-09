@@ -71,6 +71,7 @@ Images are managed on the left column when editing a page. To add an image to a 
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
 
 ![Icons](./assets/cms.icons.png)
+
 *All icons side by side.*
 
 - __Announcement__
