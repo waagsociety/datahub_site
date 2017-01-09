@@ -44,7 +44,9 @@ The editor can update the following content:
 - [Text](#text)
 
 ## File Management
-Soon.
+Files are located in the left column of a page. To add an file to the page, click __Add__ next to the Files label. To manage files for a page, click __Edit__ next to the Files label.
+
+Not all pages allow file uploads, in that case the Files section will be hidden.
 
 
 ## Content Fields
