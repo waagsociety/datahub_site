@@ -70,6 +70,10 @@ Text content allows text formatting using Markdown.
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
 
+To add an item to a structured field, click the __Add__ button next to the field label. A popup appears where the content fields can be filled in.
+
+> Please note: due restrictions in Kirby CMS an [Image](#image) file must be uploaded *before* adding a structured item (if an image is required within its structure).
+
 ### Highlights
 A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single rule of text.
 
