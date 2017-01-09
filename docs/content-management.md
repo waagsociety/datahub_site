@@ -97,6 +97,7 @@ Icons are part of the website design and can be selected from a drop-down menu. 
 - __User Group__
   Suggests collective engagement.
 
+![Icons](./assets/cms.icons.png)
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
