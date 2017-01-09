@@ -1,6 +1,10 @@
 # AMS Datahub Content Management
 
-## Getting started
+1) [Getting Started](#getting-started)
+1) [Page Management](#page-management)
+1) [Content Fields](#content-fields)
+
+## Getting Started
 The AMS Datahub content website uses [Kirby CMS](https://getkirby.com/) to manage content and utilizes [Markdown](https://daringfireball.net/projects/markdown/) to format text. To gain access to the AMS Datahub content management panel you’ll need to get in touch with [contact]. 
 
 Upon receiving your credentials you may [login to the panel](http://amsdatahub.waag.org/panel/login) using your email-address, and the password provided by [contact].
@@ -9,7 +13,7 @@ Upon receiving your credentials you may [login to the panel](http://amsdatahub.w
 ![Panel Dashboard](./assets/kirby-dashboard.png/)
 *The Kirby CMS panel Dashboard.*
 
-## Pages
+## Page Management
 
 At the 
 
@@ -18,7 +22,7 @@ At the
 
 ### /information
 
-## Fields
+## Content Fields
 
 [dashboard]: http://www.google.com
 
