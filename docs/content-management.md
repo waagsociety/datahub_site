@@ -10,7 +10,7 @@
 The AMS Datahub content website uses [Kirby CMS](https://getkirby.com/) to manage content and utilizes [Markdown](https://daringfireball.net/projects/markdown/) to format text. To gain access to the AMS Datahub content management panel you’ll need to get in touch with [contact]. 
 
 Upon receiving your credentials you may [login to the panel](http://amsdatahub.waag.org/panel/login) using your email-address, and the password provided by [contact].
-> Please change your password when you login for the first time, you can do this by clicking on your name below __Your Account__ in the [panel Dashboard](http://amsdatahub.waag.org/panel/).
+> Caution: please change your password when you login for the first time, you can do this by clicking on your name below __Your Account__ in the [panel Dashboard](http://amsdatahub.waag.org/panel/).
 
 ![Panel Dashboard](./assets/cms.dashboard.png/)
 *The Kirby CMS panel Dashboard.*
@@ -48,7 +48,7 @@ The editor can update the following content:
 ## Content Fields
 Content fields denote different types of content on a page, examples of different fields are a title, text, or image. Most fields will be required, indicated with an asterix (*) next to its label. 
 
-> A field may also occur within [Content Structures](#content-structures), if so its content is displayed within the structure.
+> Note: a field may also occur within [Content Structures](#content-structures), if so its content is displayed within the structure.
 
 ### Title
 A title is required for every page, page titles are displayed on the browser tab, a google search result, and the main header on the page itself. Only a single rule of plain text is allowed.
@@ -58,7 +58,7 @@ Images are managed on the left column when editing a page. To add an image to a 
 
 ![Image Selection](./assets/cms.image-selection.png/)
 
-> Valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and file size below 200kb.
+> Note: valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and file size below 200kb.
 
 ### Icon
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
@@ -72,7 +72,7 @@ Content structures are used to display *a list of structured content*. This mean
 
 To add an item to a structured field, click the __Add__ button next to the field label. A popup appears where the content fields can be filled in.
 
-> Please note: due restrictions in Kirby CMS an [Image](#image) file must be uploaded *before* adding a structured item (if an image is required within its structure).
+> Note: due restrictions in Kirby CMS an [Image](#image) file must be uploaded *before* adding a structured item (if an image is required within its structure).
 
 ### Highlights
 A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single rule of text.
