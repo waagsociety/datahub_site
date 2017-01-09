@@ -97,7 +97,6 @@ Icons are part of the website design and can be selected from a drop-down menu. 
 ### Text
 Text content allows text formatting using Markdown.
 More soon.
-![Text formatting](./assets/cms.text.png)
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
