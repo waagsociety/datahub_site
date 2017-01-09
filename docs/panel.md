@@ -6,7 +6,7 @@ The AMS Datahub content website uses [Kirby CMS](todo) to manage content and uti
 Upon receiving your credentials you may [login to the panel](todo) using your email-address, and the password provided by [contact].
 > Please change your password when you login for the first time, you can do this by clicking on your name below __Your Account__ in the [panel Dashboard](todo).
 
-![Panel Dashboard](image/dashboard.png/)
+![Panel Dashboard](/image/dashboard.png/)
 
 ## Pages
 
