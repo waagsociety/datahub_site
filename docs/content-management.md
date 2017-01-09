@@ -68,6 +68,8 @@ Images are managed on the left column when editing a page. To add an image to a 
 ### Icon
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
 
+![Icons](./assets/cms.icons.png)
+
 - __Announcement__
   Suggests changes to the platform.
 - __Attachment__
@@ -96,8 +98,6 @@ Icons are part of the website design and can be selected from a drop-down menu. 
   Suggests user engagement.
 - __User Group__
   Suggests collective engagement.
-
-![Icons](./assets/cms.icons.png)
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
