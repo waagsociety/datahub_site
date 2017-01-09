@@ -64,10 +64,8 @@ Images are managed on the left column when editing a page. To add an image to a 
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
 
 - __Announcement__
-  ![Announcement](./assets/announcement.svg/)
   Suggests changes to the platform.
 - __Attachment__
-  ![Announcement](./assets/announcement.svg/)
   Suggests a file system.
 - __Building__
   Suggests an institution.
