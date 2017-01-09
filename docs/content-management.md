@@ -55,12 +55,14 @@ Content fields denote different types of content on a page, examples of differen
 ### Title
 A title is required for every page, page titles are displayed on the browser tab, a google search result, and the main header on the page itself. Only a single rule of plain text is allowed.
 
+![Title field](./assets/cms.title.png/)
+
 ### Image
 Images are managed on the left column when editing a page. To add an image to a page, click __Add__ next to the [Files](#files) label. Upon uploading an Image press __Select__ on the Image field to activate the image for that field.
 
 ![Image Selection](./assets/cms.image-selection.png/)
 
-> Note: valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and file size below 200kb.
+> Note: valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and its file size below 200kb.
 
 ### Icon
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
