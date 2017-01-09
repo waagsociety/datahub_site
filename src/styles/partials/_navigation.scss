@@ -36,9 +36,9 @@
 }
 .main__navigation__list__item.logo{
   display: block;
-  background: url(../images/logo.png);
+  background: url(../images/logo.png) no-repeat;
   background-size: contain;
-  width: 90px;
+  width: 254px;
   height: 90px;
   margin-left: ($gutter / 4) !important;
   margin: 0;
