@@ -1,8 +1,8 @@
 # AMS Datahub Content Management
 
-- [Getting Started](#getting-started)
-- [Page Management](#page-management)
-- [Content Fields](#content-fields)
+1. [Getting Started](#getting-started)
+2. [Page Management](#page-management)
+3. [Content Fields](#content-fields)
 
 ## Getting Started
 The AMS Datahub content website uses [Kirby CMS](https://getkirby.com/) to manage content and utilizes [Markdown](https://daringfireball.net/projects/markdown/) to format text. To gain access to the AMS Datahub content management panel you’ll need to get in touch with [contact]. 
