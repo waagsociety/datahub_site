@@ -44,6 +44,8 @@ The editor can update the following content:
 - [Text](#text)
 
 ## File Management
+Soon.
+
 
 ## Content Fields
 Content fields denote different types of content on a page, examples of different fields are a title, text, or image. Most fields will be required, indicated with an asterix (*) next to its label. 
@@ -94,7 +96,7 @@ Icons are part of the website design and can be selected from a drop-down menu. 
 
 ### Text
 Text content allows text formatting using Markdown.
-
+More soon.
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
