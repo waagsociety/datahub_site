@@ -58,14 +58,13 @@ Content fields denote different types of content on a page, examples of differen
 A title is required for every page, page titles are displayed on the browser tab, a google search result, and the main header on the page itself. Only a single rule of plain text is allowed.
 
 ### Text
-Text content allows text formatting using Markdown.
-More soon.
+Text content allows text formatting using Markdown. With Markdown you can add text formatting such as italic or bold text, or add additional content like links or image files. Read a [markdown reference](http://commonmark.org/help/) for basic syntax or the full specification on by [John Gruber](https://daringfireball.net/projects/markdown/).
 
 ### Image
 Images are managed on the left column when editing a page. To add an image to a page, click __Add__ next to the [Files](#files) label. Upon uploading an Image press __Select__ on the Image field to activate the image for that field.
 
 ![Image Selection](./assets/cms.image-selection.png)
-*Selecting an image.*
+*A selected image.*
 
 > Note: valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and its file size below 200kb.
 
