@@ -61,7 +61,9 @@ More soon.
 
 ### Image
 Images are managed on the left column when editing a page. To add an image to a page, click __Add__ next to the [Files](#files) label. Upon uploading an Image press __Select__ on the Image field to activate the image for that field.
+
 ![Image Selection](./assets/cms.image-selection.png)
+*Selecting an image.*
 
 > Note: valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and its file size below 200kb.
 
@@ -69,6 +71,7 @@ Images are managed on the left column when editing a page. To add an image to a 
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
 
 ![Icons](./assets/cms.icons.png)
+*All icons side by side.*
 
 - __Announcement__
   Suggests changes to the platform.
