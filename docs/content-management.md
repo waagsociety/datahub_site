@@ -60,15 +60,19 @@ Images are managed on the left column when editing a page. To add an image to a 
 
 > Valid image extensions are jpeg, jpg, png, and gif. Jpeg or jpg are reccommended for photographic imagery. Please keep image dimensions below 1600px in either direction, and file size below 200kb.
 
+### Icon
+Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
+
 ### Text
-Text
+Text content allows text formatting using Markdown.
+
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
 
 ### Highlights
-Highlights
+A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single rule of text.
 
 ### Features
-Features
+A highlight contains a [Title](#title), [Image](#image), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single paragraph.
 
