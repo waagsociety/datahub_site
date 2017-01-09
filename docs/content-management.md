@@ -15,7 +15,7 @@ Upon receiving your credentials you may [login to the panel](http://amsdatahub.w
 *The Kirby CMS panel Dashboard.*
 
 ## Content Management
-As if now there are three pages in the AMS Datahub website:
+As if now there are three pages in the AMS Datahub website, pages can be found on the [panel Dashboard](http://amsdatahub.waag.org/panel/)
 
 1. [Home](#home)
 2. [Information](#information)
@@ -26,7 +26,6 @@ This is the home page when you visit [AMS Datahub](http://amsdatahub.waag.org), 
 
 The editor can update the following content:
 - [Title](#title)
-- [Text](#text)
 - [Highlights](#highlights)
 
 ### Information
@@ -59,7 +58,7 @@ Image
 Text
 
 ## Content Structures
-Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) *and* an corresponding [Image](#image).
+Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
 
 ### Highlights
 Highlights
