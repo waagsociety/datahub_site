@@ -112,7 +112,7 @@ To add an item to a structured field, click the __Add__ button next to the field
 > Note: due restrictions in Kirby CMS an [Image](#image) file must be uploaded *before* adding a structured item (if an image is required within its structure).
 
 ### Highlights
-A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but it’s recommended to contain this to a single rule of text.
+A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but it’s recommended to contain this to a single line of text.
 <!-- ![Highlights editor](./assets/cms.highlights-edit.png) -->
 <!-- *Popup to create or edit a Highlights item.* -->
 
