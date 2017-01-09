@@ -1,0 +1,6 @@
+label: Image
+type:  selector
+mode:  single
+types:
+    - image
+required: true

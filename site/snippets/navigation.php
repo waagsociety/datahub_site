@@ -4,11 +4,11 @@
       <a href="http://www.ams-amsterdam.com/" title="Link to AMS website">AMS</a>
     </li>
     <li class="main__navigation__list__item">
-      <a href="<?php echo $site->url() ?>" title="Link to homepage">datahub</a>
+      <a href="<?php echo $site->url() ?>" title="Link to homepage"><?= $site->title() ?></a>
     </li>
-    <?php foreach($pages->visible() as $p): ?>
+    <?php foreach($pages->not('home')->visible() as $page): ?>
     <li class="main__navigation__list__item">
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+      <a <?php e($page->isOpen(), ' class="active"') ?> href="<?php echo $page->url() ?>"><?php echo $page->title() ?></a>
     </li>
     <?php endforeach ?>
   </ul>

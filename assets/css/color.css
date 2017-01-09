@@ -4,6 +4,8 @@ html { background: #000 }
 
 .content { color: #000 }
 
+svg.icon { fill: red; }
+
 /* .menu */
 .menu { color: #000 }
 

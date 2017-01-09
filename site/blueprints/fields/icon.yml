@@ -1,0 +1,18 @@
+label: Icon
+type: select
+options:
+  announcement: Announcement
+  attachment: Attachment
+  building: Building
+  construction: Construction 
+  database: Database
+  layers: Layers
+  leaf: Leaf
+  map: Map
+  pushpin: Pushpin 
+  rocket: Rocket
+  search: Search
+  tag: Tag
+  user: User
+  users: User Group
+required: true

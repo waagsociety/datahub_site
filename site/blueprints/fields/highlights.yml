@@ -1,0 +1,9 @@
+label: Highlights
+type: structure
+entry: >
+  <h1>{{title}}</h1>
+  {{text}}
+fields:
+  title: title
+  text: text
+  icon: icon

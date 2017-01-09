@@ -1,0 +1,4 @@
+label: Title
+icon: header
+type: text
+required: true

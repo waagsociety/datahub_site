@@ -1,0 +1,12 @@
+label: Features
+type: structure
+# help: 
+entry: >
+  <h1>{{title}}</h1>
+  <em>{{image}}</em><br>
+  {{text}}
+
+fields:
+  title: title
+  text: text
+  image: image

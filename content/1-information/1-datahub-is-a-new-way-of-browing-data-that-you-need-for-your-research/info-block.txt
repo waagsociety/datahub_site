@@ -1,9 +1,0 @@
-Title: datahub is a new way of browing data that you need for your research
-
-----
-
-Text: An API for the distribution and annotation of open data, for small cities and big metropolitan areas. With the CitySDK Linked Data API, a city has a simple-to-use interface to all its data — it makes city services easier to implement, data easier to distribute, and applications easier to build, and works for both real-time and static data sets.
-
-----
-
-Infoimage: header.jpg

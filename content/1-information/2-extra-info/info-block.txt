@@ -1,9 +1,0 @@
-Title: extra info
-
-----
-
-Text: This is some extra info block that is looped
-
-----
-
-Infoimage: black_map@2x.png
