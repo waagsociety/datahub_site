@@ -63,6 +63,37 @@ Images are managed on the left column when editing a page. To add an image to a 
 ### Icon
 Icons are part of the website design and can be selected from a drop-down menu. The available icons are:
 
+- __Announcement__
+  ![Announcement](./assets/announcement.svg/)
+  Suggests changes to the platform.
+- __Attachment__
+  ![Announcement](./assets/announcement.svg/)
+  Suggests a file system.
+- __Building__
+  Suggests an institution.
+- __Construction__ 
+  Suggests development or maintenance to the platform.
+- __Database__
+  Suggests data.
+- __Layers__
+  Suggests several depths of data.
+- __Leaf__
+  Suggests growth or sustainability.
+- __Map__
+  Suggests geographical data or information.
+- __Pushpin__
+  Suggests focus or longevity.
+- __Rocket__
+  Suggests advancement.
+- __Search__
+  Suggests search funcitonality.
+- __Tag__
+  Suggests tagging funcitonality.
+- __User__
+  Suggests user engagement.
+- __User Group__
+  Suggests collective engagement.
+
 ### Text
 Text content allows text formatting using Markdown.
 
