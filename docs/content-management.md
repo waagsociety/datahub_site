@@ -19,7 +19,6 @@ As if now there are three pages in the AMS Datahub website:
 
 1. [Home](#home)
 2. [Information](#information)
-
 -  [Error](#error)
 
 ### Home
