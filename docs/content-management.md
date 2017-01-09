@@ -54,7 +54,6 @@ Content fields denote different types of content on a page, examples of differen
 
 ### Title
 A title is required for every page, page titles are displayed on the browser tab, a google search result, and the main header on the page itself. Only a single rule of plain text is allowed.
-![Title field](./assets/cms.title.png)
 
 ### Text
 Text content allows text formatting using Markdown.
@@ -108,10 +107,10 @@ To add an item to a structured field, click the __Add__ button next to the field
 
 ### Highlights
 A highlight contains a [Title](#title), [Icon](#icon), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single rule of text.
-![Highlights editor](./assets/cms.highlights-edit.png)
-*Popup to create or edit a Highlights item.*
+<!-- ![Highlights editor](./assets/cms.highlights-edit.png) -->
+<!-- *Popup to create or edit a Highlights item.* -->
 
 ### Features
 A highlight contains a [Title](#title), [Image](#image), and a short [Text](#text). Text length is not restricted but its recommended to contain this to a single paragraph.
-![A Features preview item](./assets/cms.features-preview.png)
-*A preview of a Feature in the Kirby CMS page editor.*
+<!-- ![A Features preview item](./assets/cms.features-preview.png) -->
+<!-- *A preview of a Feature in the Kirby CMS page editor.* -->
