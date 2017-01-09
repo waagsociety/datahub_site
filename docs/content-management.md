@@ -56,6 +56,10 @@ Content fields denote different types of content on a page, examples of differen
 A title is required for every page, page titles are displayed on the browser tab, a google search result, and the main header on the page itself. Only a single rule of plain text is allowed.
 ![Title field](./assets/cms.title.png)
 
+### Text
+Text content allows text formatting using Markdown.
+More soon.
+
 ### Image
 Images are managed on the left column when editing a page. To add an image to a page, click __Add__ next to the [Files](#files) label. Upon uploading an Image press __Select__ on the Image field to activate the image for that field.
 ![Image Selection](./assets/cms.image-selection.png)
@@ -94,9 +98,6 @@ Icons are part of the website design and can be selected from a drop-down menu. 
 - __User Group__
   Suggests collective engagement.
 
-### Text
-Text content allows text formatting using Markdown.
-More soon.
 
 ## Content Structures
 Content structures are used to display *a list of structured content*. This means a structure can consist of multiple content fields, for example a [Title](#title) and an [Image](#image).
