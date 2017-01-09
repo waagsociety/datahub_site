@@ -1,0 +1,36 @@
+Title: A New Way of Browsing Data to Boost Your Research
+
+----
+
+Text: 
+
+----
+
+Header: datahub is a new way of browsing data to boost your research
+
+----
+
+Heroimage: header.jpg
+
+----
+
+Tagline: ok
+
+----
+
+Highlights: 
+
+- 
+  title: What can we do?
+  text: >
+    Op deze website vind je een catalogus
+    van metropolitaanse open data in de
+    regio Amsterdam
+  icon: building
+- 
+  title: Browse data
+  text: >
+    The data browser is a complete new
+    graphical way of browsing metropolitan
+    data.
+  icon: search
