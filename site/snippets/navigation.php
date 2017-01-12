@@ -12,7 +12,7 @@
     </li>
     <?php endforeach ?>
     <li class="main__navigation__list__item ">
-      <a href="http://amsdatahub.waag.org/browse#search=*&type=project" title="Link to AMS website">Projects</a>
+      <a href="http://amsdatahub.waag.org/browse#type=project" title="Link to AMS website">Projects</a>
     </li>
   </ul>
 </nav>
