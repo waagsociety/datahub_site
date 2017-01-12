@@ -1,4 +1,4 @@
-<nav class="main__navigation full__width flex flex__wrap flex__center <?php if($page->isHomePage()): ?> light <?php endif ?>">
+<nav class="<?= $page->slug() ?> main__navigation full__width flex flex__wrap flex__center <?php if($page->isHomePage()): ?> light <?php endif ?>">
   <ul class="main__navigation__list flex full__width">
     <li class="main__navigation__list__item logo">
       <a href="http://www.ams-amsterdam.com/" title="Link to AMS website">AMS</a>
