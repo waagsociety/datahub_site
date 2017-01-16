@@ -1,6 +1,7 @@
 title: browser
 pages: false
 files: true
+hide: true
 fields:
   title:
     label: Title
