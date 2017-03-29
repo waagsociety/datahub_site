@@ -11,8 +11,11 @@
       <a <?php e($page->isOpen(), ' class="active"') ?> href="<?php echo $page->url() ?>"><?php echo $page->title() ?></a>
     </li>
     <?php endforeach ?>
-    <li class="main__navigation__list__item ">
+    <!-- <li class="main__navigation__list__item ">
       <a href="http://amsdatahub.waag.org/browse#type=project" title="Link to AMS website">Projects</a>
+    </li> -->
+    <li class="main__navigation__list__item ">
+      <a class="primary button" target="_blank" href="http://amsdatahub.waag.org/dspace/jspui/mydspace" title="Link to AMS website">My Account</a>
     </li>
   </ul>
 </nav>
