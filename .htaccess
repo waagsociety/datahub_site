@@ -1,5 +1,7 @@
 # Kirby .htaccess
 
+php_value post_max_size 30M
+
 # rewrite rules
 <IfModule mod_rewrite.c>
 
