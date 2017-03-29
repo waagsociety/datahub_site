@@ -1,10 +1,10 @@
 title: information
 options:
   preview: true
-  status: false
-  template: false
-  url: false
-  delete: false
+  # status: false
+  # template: false
+  # url: false
+  # delete: false
 pages: false
 fields:
   title: title

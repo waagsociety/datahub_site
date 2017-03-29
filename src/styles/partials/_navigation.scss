@@ -1,4 +1,4 @@
-.main__navigation{
+.main__navigation {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,13 +8,14 @@
   z-index: 9999;
   font-size: 1.25em;
   background: white;
+
   &.browse {
     box-shadow: inset 0 -1px 0 0 #ddd;
     .main__navigation__list__item:nth-of-type(2) {
       background-color: transparent;
     }
   }
-  &.light{
+  &.light {
     background-color: transparent;
     .main__navigation__list__item {
       color: white;
@@ -38,7 +39,7 @@
     }
   }
 }
-.main__navigation__list__item.logo{
+.main__navigation__list__item.logo {
   display: block;
   background: url(../images/logo.png) no-repeat;
   background-size: contain;
@@ -74,13 +75,14 @@
 }
 
 .main__navigation__list__item a {
+  border: 1px solid transparent;
   display: inline-block;
   margin: 0 0.5em;
-  padding: 0.625em 1em 0.75em;
+  padding: 0.5em 1em 0.75em;
 }
 
 .main__navigation__list__item a.button {
-  border: 1px solid white;
+  border-color: initial;
   background: transparent;
   display: inline-block;
 }
