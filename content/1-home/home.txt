@@ -28,6 +28,10 @@ Highlights:
     regio Amsterdam
   icon: building
 - 
+  title: Title
+  text: Nederlands
+  icon: construction
+- 
   title: Browse data
   text: >
     The data browser is a complete new

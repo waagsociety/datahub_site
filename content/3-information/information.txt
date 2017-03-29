@@ -30,3 +30,7 @@ Features:
     This is some extra info block that is
     looped...
   image: black_map@2x.png
+- 
+  title: Antoher feature
+  text: text
+  image: ams_image.png

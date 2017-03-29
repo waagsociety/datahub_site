@@ -7,5 +7,5 @@ email: nathan@waag.org
 language: en
 role: admin
 history:
-  - home
   - information
+  - home

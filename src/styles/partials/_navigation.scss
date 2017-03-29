@@ -17,22 +17,20 @@
   &.light{
     background-color: transparent;
     .main__navigation__list__item {
-      a{
-        color: white;
-      }
+      color: white;
     }
   }
 }
 .main__navigation__list{
   justify-content: flex-end;
 }
-.main__navigation__list__item{
+.main__navigation__list__item {
   display: flex;
   align-items: center;
-  margin: 0 ($gutter / 4);
-  a{
+  margin: 0;
+  a {
     padding-bottom: 5px;
-    color: black;
+    color: inherit;
     position: relative;
     font-weight: 700;
     &.active{
@@ -48,7 +46,8 @@
   height: 90px;
   margin-left: ($gutter / 4) !important;
   margin: 0;
-  a{
+  a{  
+    padding: 0;
     display: block;
     width: 100%;
     height: 100%;
@@ -59,15 +58,10 @@
   background: white;
   width: 120px;
   justify-content: center;
-  padding: 0 ($gutter / 4);
-  a{
-    color: $brand-color !important;
+  color: green;
+  a {
+    color: $brand-color;
   }
-}
-.main__navigation__list__item:first-child,
-.main__navigation__list__item:nth-of-type(2){
-  font-weight: bold;
-  margin: 0;
 }
 
 .main__navigation__list__item:nth-of-type(3){
@@ -75,6 +69,23 @@
   justify-content: flex-end;
 }
 
-.content__container{
+.content__container {
   min-height: calc(100vh - 90px);
 }
+
+.main__navigation__list__item a {
+  display: inline-block;
+  margin: 0 0.5em;
+  padding: 0.625em 1em 0.75em;
+}
+
+.main__navigation__list__item a.button {
+  border: 1px solid white;
+  background: transparent;
+  display: inline-block;
+}
+
+
+
+
+
