@@ -1,0 +1,40 @@
+Title: AMS Datahub is a new way of browsing data to boost your Amsterdam research
+
+----
+
+Text: 
+
+----
+
+Tagline: datahub is a new way of browsing data to boost your research
+
+----
+
+Pagetitle: datahub
+
+----
+
+Heroimage: header.jpg
+
+----
+
+Highlights: 
+
+- 
+  title: What is the AMS Datahub?
+  text: '*The AMS Datahub is a large and growing collection of data, focusing on the Metropolitan region of Amsterdam and aiming at providing users relevant information to facilitate metropolitan solutions.*(link: http://amsdatahub.waag.org/information text: Learn more about what it is!)'
+  icon: database
+- 
+  title: Browse the AMS Datahub
+  text: '*Browse the data, projects and papers of AMS institute research as well as a large collection of open data regarding the metropolitan region of Amsterdam.* (link: http://amsdatahub.waag.org/browse text: Try it!)'
+  icon: search
+- 
+  title: Details and FAQs
+  text: >
+    Learn more about the details of the AMS
+    Datahub standards on metadata, privacy
+    and how to upload your (AMS) research
+    data.
+    (link:http://amsdatahub.waag.org/details
+    text:Find it here.)
+  icon: map

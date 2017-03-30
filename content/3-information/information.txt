@@ -9,28 +9,19 @@ Text:
 Features: 
 
 - 
-  title: >
-    Datahub is a New Way of Browing Data
-    That You Need For Your Research
-  text: >
-    An API for the distribution and
-    annotation of open data, for small
-    cities and big metropolitan areas. With
-    the CitySDK Linked Data API, a city has
-    a simple-to-use interface to all its
-    data — it makes city services easier
-    to implement, data easier to distribute,
-    and applications easier to build, and
-    works for both real-time and static data
-    sets.
+  title: What is the AMS Datahub?
+  text: "The AMS Datahub is a new way of browsing data to boost your Amsterdam research. It is part of  the AMS Institute's focus on the relevance of data in research and knowledge creation. AMS Datahub consists of a large and growing collection of data, focusing on the Metropolitan region of Amsterdam and aiming at providing users relevant data to facilitate metropolitan solutions."
   image: ams_image.png
 - 
-  title: Additional Information
+  title: What is AMS Institute?
   text: >
-    This is some extra info block that is
-    looped...
-  image: black_map@2x.png
-- 
-  title: Antoher feature
-  text: text
-  image: ams_image.png
+    The (link:www.ams-institute.org
+    text:AMS-Institute) is the Amsterdam
+    Institute for Advanced Metropolitan
+    Solutions. AMS is a scientific institute
+    in Amsterdam that, in close
+    collaboration with academic, education,
+    government, business partners and
+    societal organizations, works on
+    creating solutions
+  image: amslogo.png

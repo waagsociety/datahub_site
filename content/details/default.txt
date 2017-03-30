@@ -1,0 +1,8 @@
+Title: Details
+
+----
+
+Text: 
+
+Please find (file:ams_datahub_presentation.pdf text:here) a presentation  on the AMS Datahub.
+(youtube:https://www.youtube.com/watch?v=p3y8V3LG1sQ)
